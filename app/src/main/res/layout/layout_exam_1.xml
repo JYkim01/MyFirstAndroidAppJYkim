@@ -7,31 +7,33 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_weight="1"
         android:scaleType="centerCrop"
         android:src="@drawable/sunset" />
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.6"
+        android:layout_height="wrap_content"
         android:background="#00ff00"
-        android:paddingStart="16dp"
-        android:paddingTop="16dp"
-        android:paddingBottom="8dp"
-        android:text="You're invited!"
-        android:textColor="#ffffff"
-        android:textSize="45sp" />
+        android:orientation="vertical"
+        android:padding="16dp">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="0.4"
-        android:background="#00ff00"
-        android:paddingBottom="16dp"
-        android:paddingStart="16dp"
-        android:text="Bonfire at the beach"
-        android:textColor="#ffffff"
-        android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:text="You're invited!"
+            android:textColor="#ffffff"
+            android:textSize="45sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bonfire at the beach"
+            android:textColor="#ffffff"
+            android:textSize="20dp" />
+
+    </LinearLayout>
 
 </LinearLayout>
