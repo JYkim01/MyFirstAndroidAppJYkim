@@ -40,9 +40,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#a2ad30"
         android:layout_above="@id/smartApp_text"
-        android:layout_alignLeft="@id/smartApp_text"
+        android:background="#a2ad30"
         android:text="Top"
         android:textSize="32sp" />
 
@@ -53,7 +52,7 @@
         android:layout_toEndOf="@id/smartApp_text"
         android:background="#a2ad30"
         android:text="Right"
-        android:textSize="32sp"/>
+        android:textSize="32sp" />
 
     <TextView
         android:id="@+id/name_text"
@@ -68,21 +67,19 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Left"
-        android:textSize="32sp"
-        android:background="#9430ab"
         android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@id/name_text"/>
+        android:layout_toStartOf="@id/name_text"
+        android:background="#9430ab"
+        android:text="Left"
+        android:textSize="32sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Top"
         android:layout_above="@id/name_text"
         android:layout_alignRight="@id/name_text"
-        android:textSize="32sp"
         android:background="#9430ab"
-        android:layout_toStartOf="@id/name_text"/>
-
+        android:text="Top"
+        android:textSize="32sp" />
 
 </RelativeLayout>
