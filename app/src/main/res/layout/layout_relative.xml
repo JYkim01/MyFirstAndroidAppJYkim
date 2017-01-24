@@ -4,25 +4,35 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id="@+id/hello_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:background="#38cd0f"
-        android:textSize="24sp"
-        android:text="Hello" />
+        android:text="Hello"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/hello_text"
+        android:layout_below="@id/hello_text"
+        android:background="#8b9189"
+        android:text="왼쪽"
+        android:textSize="32sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="#a2ad30"
-        android:textSize="24sp"
-        android:text="수원스마트앱개발학원" />
+        android:text="수원스마트앱개발학원"
+        android:textSize="24sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#9430ab"
-        android:textSize="24sp"
-        android:text="오준석 원장" />
+        android:text="오준석 원장"
+        android:textSize="24sp" />
 </RelativeLayout>
