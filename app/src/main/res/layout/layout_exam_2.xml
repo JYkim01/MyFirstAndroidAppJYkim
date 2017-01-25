@@ -44,7 +44,7 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/price_text_view"
+        android:id="@+id/result_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingStart="16dp"
@@ -61,6 +61,7 @@
         android:textSize="30dp" />
 
     <Button
+        android:id="@+id/order_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
