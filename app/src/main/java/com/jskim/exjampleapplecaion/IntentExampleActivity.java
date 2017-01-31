@@ -9,7 +9,6 @@ import android.widget.Toast;
 
 public class IntentExampleActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private static final String TAG = IntentExampleActivity.class.getSimpleName();
     private EditText mId;
     private EditText mPassword;
 

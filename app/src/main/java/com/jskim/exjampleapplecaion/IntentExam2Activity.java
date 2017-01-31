@@ -25,21 +25,18 @@ public class IntentExam2Activity extends AppCompatActivity implements View.OnCli
                 cm.putExtra("Customer management","고객관리를 선택하셨습니다.");
                 setResult(RESULT_OK,cm);
                 finish();
-                break;
 
             case R.id.sm_text :
                 Intent sm = new Intent();
                 sm.putExtra("Sales management","매출관리를 선택하셨습니다.");
                 setResult(RESULT_OK,sm);
                 finish();
-                break;
 
             case R.id.md_text :
                 Intent md = new Intent();
                 md.putExtra("Merchandise management","상품관리를 선택하셨습니다.");
                 setResult(RESULT_OK,md);
                 finish();
-                break;
         }
     }
 }
